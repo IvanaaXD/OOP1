@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;gui.ZakazanaKozmetickaUslugaTabelaFrame&apos; to &apos;ZakazanaKozmetickaUslugaMenadzerTabelaFrame&apos;&#x0D;&#x0A;- Original project: &apos;KozmetickiSalon&apos;&#x0D;&#x0A;- Original element: &apos;gui.ZakazanaKozmetickaUslugaTabelaFrame&apos;&#x0D;&#x0A;- Renamed element: &apos;gui.ZakazanaKozmetickaUslugaMenadzerTabelaFrame&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ZakazanaKozmetickaUslugaTabelaFrame&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;gui{ZakazanaKozmetickaUslugaTabelaFrame.java[ZakazanaKozmetickaUslugaTabelaFrame" matchStrategy="1" name="ZakazanaKozmetickaUslugaMenadzerTabelaFrame" qualified="false" references="true" similarDeclarations="false" stamp="1686785421906" textual="false" version="1.0"/>
+</session>

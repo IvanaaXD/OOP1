@@ -1,0 +1,39 @@
+package meni;
+
+import java.nio.file.Path;
+
+import fileMenager.KlijentFM;
+import korisnici.Klijent;
+
+public class Meni {
+
+	public static void main(String[] args) {
+		
+		/*D:\FTN NS\PROJEKTI\Objektno orijentisano programiranje 1*/
+		String fileSeparator = System.getProperty("file.separator");
+		
+		Path path = Path.of(fileSeparator + "podaci" + fileSeparator + "klijenti.csv");
+		
+		String klijentPath = fileSeparator + "podaci" + fileSeparator + "klijenti.csv";
+		String menadzerPath = fileSeparator + "podaci" + fileSeparator + "menadzer.csv";
+		String recepcionarPath = fileSeparator + "podaci" + fileSeparator + "recepcionar.csv";
+		String kozmeticarPath = fileSeparator + "podaci" + fileSeparator + "kozmeticar.csv";
+		String tretmanPath = fileSeparator + "podaci" + fileSeparator + "tretman.csv";
+		String tipTretmanaPath = fileSeparator + "podaci" + fileSeparator + "tiptretmana.csv";
+		String zakazaniTretmanPath = fileSeparator + "podaci" + fileSeparator + "zakazanitretmana.csv";
+
+		
+		Klijent k = new Klijent("Marija", "P", "mp", "lozinka", "z", "654685454", "negdeutb");
+		System.out.println(k.getIme());
+
+		KlijentFM Kfm = new KlijentFM();
+		Kfm.setPath(klijentPath);
+		appSettings appSettings = new appSettings();
+		appSettings.addKlijent("Marija", "P", "mp", "lozinka", "z", "654685454", "negdeutb");
+		Kfm.saveData();		
+		
+		
+		
+	}
+
+}
